@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Contact from './Components/Contact/Contact';
+
 import {BrowserRouter,Routes,Route, Navigate} from"react-router-dom";
 
 import React,{useState, useEffect} from 'react'

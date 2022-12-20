@@ -14,7 +14,7 @@ export default function Contact({list,contactlist,deletedata,editdata, editdetai
 // const[reg,setreg]=useState({})
 
 const setRegister=(event)=>{
-// event.preventDefault();
+event.preventDefault();
 const{name,value}=event.target
 setoutput({
   ...output,[name]:value
